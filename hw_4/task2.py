@@ -12,7 +12,7 @@ from random import randint
 
 n = int(input('Введите число грядок: '))
 m = [randint(1, 10) for i in range(n)]
-print(f'Число ягодок на каждой грядке -  {m}')
+print(f'Число ягод на каждой грядке -  {m}')
 x = 0
 for i in range(1, n-1):
     if (m[i]+m[i+1]+m[i-1] > x):

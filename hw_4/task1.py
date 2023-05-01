@@ -7,7 +7,7 @@ from random import randint
 
 num = int(input('Введите количество элементов первого спика: '))
 list_1 = [randint(1, 20) for i in range(num)]
-num_2 = int(input('Введите количество элементов второго спика: '))
+num_2 = int(input('Введите количество элементов второго спиcка: '))
 list_2 = [randint(1, 20) for i in range(num_2)]
 print(f' Начальные списки {list_1}, {list_2}')
 
