@@ -41,7 +41,7 @@ points_ru = {1:'АВЕИНОРСТ',
       	8:'ШЭЮ',
       	10:'ФЩЪ'}
 text = input("Введите слово: ").upper()
-print("Стоимость введенного пользователем слова - ")
+print("Стоимость введенного пользователем слова -")
 
 if isCyrillic(text):
 	print(sum([k for i in text for k, v in points_ru.items() if i in v]))

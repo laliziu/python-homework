@@ -10,10 +10,10 @@
     -> 5
 '''
 
-a=[int(i) for i in input("Введите список: ").split()]
-b=int(input("Введите число: "))
-number=0
+a = [int(i) for i in input("Введите список: ").split()]
+b = int(input("Введите число: "))
+number = 0
 for i in range(len(a)):
-    if (b-a[i])<b-number and b-a[i]>0:
-        number=i
+    if (b-a[i]) < b-number and b-a[i] > 0:
+        number = i
 print(a[number])
