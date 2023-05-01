@@ -6,9 +6,9 @@
 from random import randint
 
 num = int(input('Введите количество элементов первого спика: '))
-list_1 = [randint(1,20) for i in range(num)]
+list_1 = [randint(1, 20) for i in range(num)]
 num_2 = int(input('Введите количество элементов второго спика: '))
-list_2 = [randint(1,20) for i in range(num_2)]
+list_2 = [randint(1, 20) for i in range(num_2)]
 print(f' Начальные списки {list_1}, {list_2}')
 
 temp = []
@@ -19,9 +19,6 @@ for i in list_1:
 print(f' Общие элементы двух списков {temp}')
 temp.sort()
 print(f' Отсортированный новый список {temp}')
-
-
-
 
 
 # def list_create_random(begin_num, end_num, length):
