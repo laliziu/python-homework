@@ -12,15 +12,15 @@
 from random import randint
 
 print("Наш массив")
-my_list = [randint(1,10) for i in range(10)]
+my_list = [randint(1, 10) for i in range(10)]
 print(my_list)
 
 number = int(input("Ищем число: "))
 count = 0
 
 for i in range(10):
-   if my_list[i] == i:
-    count += 1
+    if my_list[i] == i:
+        count += 1
 print(f'Число {number} встречается в массиве {count} раза')
 
 if number not in my_list:
